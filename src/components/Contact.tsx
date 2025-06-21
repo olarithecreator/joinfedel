@@ -35,7 +35,13 @@ const Contact = () => {
           </div>
 
           <div className="bg-white border border-gray-200 p-8">
-            <form className="space-y-6">
+            <form 
+              className="space-y-6"
+              onSubmit={(e) => {
+                e.preventDefault();
+                window.location.href = 'https://calendly.com/leaders_fedel/30min';
+              }}
+            >
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm text-gray-700 tracking-wide mb-2">FIRST NAME</label>
@@ -88,8 +94,8 @@ const Contact = () => {
                 ></textarea>
               </div>
 
-              <button className="w-full bg-gray-900 text-white py-4 text-sm font-medium tracking-wide hover:bg-gray-700 transition-colors">
-                SEND MESSAGE
+              <button type="submit" className="w-full bg-gray-900 text-white py-4 text-sm font-medium tracking-wide hover:bg-gray-700 transition-colors">
+                BOOK A 30 MIN CALL
               </button>
             </form>
           </div>
