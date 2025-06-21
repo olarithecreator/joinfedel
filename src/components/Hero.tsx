@@ -59,7 +59,7 @@ const Hero = () => {
           <div className="relative">
             <div className="relative">
               <img 
-                src="/hero-image.png" 
+                src="/hero-image.png.jpg" 
                 alt="Leadership Development" 
                 className="w-full h-[500px] object-cover"
               />
