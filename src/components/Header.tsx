@@ -49,9 +49,11 @@ const Header = () => {
 
           <div className="hidden lg:flex items-center space-x-4">
             <Search className="w-5 h-5 text-gray-400 cursor-pointer hover:text-white" />
-            <button className="bg-gray-700 text-white px-6 py-2 text-sm font-medium tracking-wide hover:bg-gray-600 transition-colors">
-              APPLY
-            </button>
+            <a href="https://tally.so/r/3EEO2q" target="_blank" rel="noopener noreferrer">
+              <button className="bg-gray-700 text-white px-6 py-2 text-sm font-medium tracking-wide hover:bg-gray-600 transition-colors">
+                APPLY
+              </button>
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -71,9 +73,9 @@ const Header = () => {
               <a href="#about" className="block text-gray-300 font-medium text-sm tracking-wide">ABOUT</a>
               <a href="#impact" className="block text-gray-300 font-medium text-sm tracking-wide">IMPACT</a>
               <a href="#contact" className="block text-gray-300 font-medium text-sm tracking-wide">CONTACT</a>
-              <button className="bg-gray-700 text-white px-6 py-2 text-sm font-medium tracking-wide">
-                APPLY
-              </button>
+              <a href="https://tally.so/r/3EEO2q" target="_blank" rel="noopener noreferrer">
+                <button className="w-full bg-gray-800 text-white px-4 py-2 rounded-lg mt-2">APPLY</button>
+              </a>
             </nav>
           </div>
         )}

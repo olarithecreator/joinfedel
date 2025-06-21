@@ -74,9 +74,13 @@ const Programs = () => {
                   </ul>
                 </div>
 
-                <button className="w-full bg-gray-900 text-white py-3 text-sm font-medium tracking-wide hover:bg-gray-700 transition-colors">
-                  LEARN MORE
-                </button>
+                <div className="mt-6 flex justify-end">
+                  <a href="https://tally.so/r/3EEO2q" target="_blank" rel="noopener noreferrer">
+                    <button className="border border-gray-400 text-white px-8 py-4 text-sm font-medium tracking-wide hover:bg-gray-800 hover:border-gray-300 transition-colors">
+                      APPLY
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
           ))}

@@ -28,12 +28,16 @@ const Hero = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-gray-700 text-white px-8 py-4 text-sm font-medium tracking-wide hover:bg-gray-600 transition-colors">
-                EXPLORE PROGRAMS
-              </button>
-              <button className="border border-gray-400 text-white px-8 py-4 text-sm font-medium tracking-wide hover:bg-gray-800 hover:border-gray-300 transition-colors">
-                LEARN MORE
-              </button>
+              <a href="#programs">
+                <button className="bg-gray-700 text-white px-8 py-4 text-sm font-medium tracking-wide hover:bg-gray-600 transition-colors">
+                  EXPLORE PROGRAMS
+                </button>
+              </a>
+              <a href="https://tally.so/r/3EEO2q" target="_blank" rel="noopener noreferrer">
+                <button className="border border-gray-400 text-white px-8 py-4 text-sm font-medium tracking-wide hover:bg-gray-800 hover:border-gray-300 transition-colors">
+                  APPLY
+                </button>
+              </a>
             </div>
 
             <div className="grid grid-cols-3 gap-8 pt-8 border-t border-gray-700">
