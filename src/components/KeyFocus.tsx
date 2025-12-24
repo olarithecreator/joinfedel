@@ -3,17 +3,17 @@ const KeyFocus = () => {
     {
       title: "Ideas & Voice",
       description: "Identity in Christ. Voice with purpose. Truth with courage.",
-      image: "/idea and voice.png"
+      image: "/podcast.png"
     },
     {
       title: "Leadership Systems",
       description: "Values become systems. Systems create impact. Impact serves Christ.",
-      image: "/leadership system.png"
+      image: "/1 point.png"
     },
     {
       title: "Transformation & Community",
       description: "Love transforms. Service multiplies. Communities rise. All in Christ.",
-      image: "/image 1.png"
+      image: "/2 point.png"
     }
   ];
 
