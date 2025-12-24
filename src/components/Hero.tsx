@@ -54,7 +54,7 @@ const Hero = () => {
             <div className="relative group w-full max-w-lg lg:max-w-none">
               <div className="absolute -inset-2 sm:-inset-4 bg-gradient-to-r from-purple-600/20 to-blue-600/20 rounded-2xl blur-xl group-hover:blur-2xl transition-all duration-300"></div>
               <img 
-                src="/hero-image.png.jpg" 
+                src="/hero image.jpg" 
                 alt="Leadership Development" 
                 className="relative w-full h-[300px] sm:h-[400px] md:h-[450px] lg:h-[500px] object-cover rounded-2xl shadow-2xl transition-transform duration-300 group-hover:scale-105"
               />
